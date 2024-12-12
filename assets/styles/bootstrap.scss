@@ -1,0 +1,140 @@
+.container {
+    // padding:1.5rem;
+}
+
+.ps-6 {
+    padding-left: 4rem
+}
+.ps-7 {
+    padding-left: 5rem
+}
+.ps-8 {
+    padding-left: 6rem;
+}
+@media (min-width: 576px) {
+    .d-sm-block {
+        display: block!important;
+    }
+    .d-sm-flex {
+        display: flex;
+        flex-direction: row!important;
+    }
+    .v-sm-flex {
+        display: flex;
+        flex-direction: column!important;
+    }
+    .w-sm-0 {
+      width: 0px !important;
+    }
+    .w-sm-25 {
+      width: 25% !important;
+    }
+    .w-sm-50 {
+      width: 50% !important;
+    }
+    .w-sm-75 {
+      width: 75% !important;
+    }
+    .w-sm-100 {
+      width: 100% !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .d-md-block {
+        display: block!important;
+    }
+    .d-md-flex {
+        display: flex;
+        flex-direction: row!important;
+    }
+    .v-sm-flex {
+        display: flex;
+        flex-direction: column!important;
+    }
+    .w-md-0 {
+      width: 0px !important;
+    }
+    .w-md-25 {
+      width: 25% !important;
+    }
+    .w-md-50 {
+      width: 50% !important;
+    }
+    .w-md-75 {
+      width: 75% !important;
+    }
+    .w-md-100 {
+      width: 100% !important;
+    }
+}
+
+@media (min-width: 992px) {
+    // .d-lg-block {
+    //     display: block!important;
+    // }
+    .d-lg-flex {
+        display: flex;
+        flex-direction: row!important;
+    }
+    .v-lg-flex {
+        display: flex;
+        flex-direction: column!important;
+    }
+    .w-lg-0 {
+      width: 0px !important;
+    }
+    .w-lg-25 {
+      width: 25% !important;
+    }
+    .w-lg-50 {
+      width: 50% !important;
+    }
+    .w-lg-75 {
+      width: 75% !important;
+    }
+    .w-lg-100 {
+      width: 100% !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .d-xl-block {
+        display: block!important;
+    }
+    .d-xl-flex {
+        display: flex;
+        flex-direction: row!important;
+    }
+    .v-xl-flex {
+        display: flex;
+        flex-direction: column!important;
+    }
+    .w-xl-0 {
+      width: 0px !important;
+    }
+    .w-xl-25 {
+      width: 25% !important;
+    }
+    .w-xl-50 {
+      width: 50% !important;
+    }
+    .w-xl-75 {
+      width: 75% !important;
+    }
+    .w-xl-100 {
+      width: 100% !important;
+    }
+}
+
+@media (max-width: 768px) {
+	.transformer {
+		flex-direction: column!important;
+	}
+}
+
+@media (max-width: 1200px) {
+	.transformer-xl {
+		flex-direction: column!important;
+	}
+}

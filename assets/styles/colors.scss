@@ -1,0 +1,37 @@
+@use "_variables.scss";
+
+body {
+    background-color: #fafafa!important;
+}
+
+.main-color {
+    color: variables.$main-text!important;
+}
+
+.main-color-darkmode {
+    color: variables.$dark-main-text!important;
+}
+
+.bg-light {
+    background-color: #fafafa!important;
+}
+
+.bg-dark {
+    background-color: #2F2E2E!important;
+}
+
+.text-white-75 {
+    color: rgba(255, 255, 255, 0.75)!important;
+}
+
+.border-grey {
+    border-color: rgba(255, 255, 255, 0.25)!important;
+}
+
+a {
+    color: variables.$dark!important;
+}
+
+a.dark {
+    color: #cccccc!important;
+}
